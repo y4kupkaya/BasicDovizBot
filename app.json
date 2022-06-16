@@ -1,0 +1,31 @@
+
+{
+    "name": "Basic Döviz Bot", 
+    "description": "Dövizleri Türk liresına çevirir, hesaplar.",
+    "repository": "https://github.com/aylak-github/BasicDovizBot",
+    "stack": "container",
+    "env": {
+      "API_ID": {
+        "description": "my.telegram.org/apps Sitesinden alabilirsiniz.",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "my.telegram.org/apps Sitesinden alabilirsiniz.",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "@BotFather'dan alabilirsiniz.",
+        "required": true
+      },
+      "BOT_USERNAME": {
+        "description": "Botunuzun '@' olmadan kullanıcı adı.",
+        "required": true
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
+  
