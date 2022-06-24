@@ -1,2 +1,2 @@
-pyrogram==1.3.6
+git+https://github.com/pyrogram/pyrogram.git
 kekikspatula
